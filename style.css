@@ -1,0 +1,73 @@
+div {
+    /* border: 1px black solid; */
+    color: black;
+}
+
+.elem {
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 3px;
+}
+
+body {
+    height: 100vh
+}
+
+body,
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 2px black solid;
+    background-color: #111;
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.zero-key {
+    width: 306px;
+    margin: 3px;
+    box-sizing: border-box;
+}
+
+
+.calc,
+.screen {
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calc {
+    height: 250px;
+}
+
+p {
+    /* top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    transform: translate(-50%, -50%); */
+    font-size: 100px;
+}
